@@ -1,0 +1,51 @@
+
+.h2-01{
+    text-align: center;
+    font-family: sans-serif;
+    color: #7bffc9;
+    margin-bottom: 50px;
+}
+
+.leyaut-form{
+    margin-top: 60px;
+    background: #1e7e34;
+    padding-top: 70px;
+    border-color: #000000;
+    border-radius: 20px;
+}
+label{
+    color: #000000;
+}
+
+.icon-1{
+
+}
+.btn-grupo-01{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.btn-01{
+    background-color: #afafaf;
+    color: #000000;
+    border-color: #283642;
+}
+.btn-01:hover{
+    background-color: #3a4363;
+    color: #a8b9cc;
+    border-color: #283642;
+    color: #a8b9cc;
+}
+.hiperlink-01{
+    color: #85e0bb;
+}
+.hiperlink-01:hover{
+    color: #3a4363;
+}.hiperlink-02{
+    color: #284501;
+}
+.hiperlink-02:hover{
+    color: #3a4363;
+}
+.footer-01 {
+    margin-top: 80px;
+}
