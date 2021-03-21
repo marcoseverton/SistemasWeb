@@ -22,10 +22,28 @@ html,body{
     width: 400px;
     background-color: rgba(0,0,0,0.5) !important;
 }
+.card2{
+    height: 570px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1000px;
+    font-weight: bold !important;
+    color: #5fef8ce3 !important;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.formulario{
+    padding: 30px;
+}
 
 .titulo{
     color: #ddf484  !important;
     font-family: sans-serif;
+}
+.tituloCadastro{
+    color: #9ee0aded !important;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .social_icon span{
     font-size: 60px;
