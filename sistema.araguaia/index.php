@@ -50,10 +50,10 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex justify-content-center links">
-                            Não tem conta de acesso?<a class="links01" href="#">Click aqui para criar</a>
+                            Não tem conta de acesso?<a class="links01" href="view/modulo/cadastroUsuario.phtml.php">Click aqui para criar</a>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a class="links01" href="#" >Esqueceu a senha de acesso?</a>
+                            <a class="links01" href="#">Esqueceu a senha de acesso?</a>
                         </div>
                     </div>
                 </div>

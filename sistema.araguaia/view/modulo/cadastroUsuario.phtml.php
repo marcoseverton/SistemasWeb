@@ -5,19 +5,20 @@
         <title>Cadastro</title>
         <link href="../design/bootstrap/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
         <link href="../design/mais-estilos/css01.css" rel="stylesheet" id="bootstrap-css">
-        <link href="../design/bootstrap/bootstrap-icons-1.4.0/bootstrap-icons.css" rel="stylesheet" id="bootstrap-css">
     </head>
     <body>
         <div class="container">
             <div class="d-flex justify-content-center h-100">
                 <div class="card2">
-                    <div class="formulario">
-                        <h3 class="tituloCadastro">CADASTRAMENTO DE USUÁRIO </h3>
+                    <div style="padding: 30px;">
+                        <h3 class="tituloCadastro" style="padding-bottom: 30px;">CADASTRO
+                            <img src="../design/img/icone-cadastro.png"/>
+                        </h3>
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-md-4">
-                                    <label for="email">EMAIL</label>
-                                    <input type="email" class="form-control" id="email" placeholder="INFORME O EMAIL">
+                                    <label for="cpf">CPF</label>
+                                        <input type="text" class="form-control" id="cpf" placeholder="INFORME O SEU CPF">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="senha1">SENHA</label>
@@ -33,35 +34,17 @@
                                 <input type="text" class="form-control" id="nome" placeholder="INFORME O SEU NOME COMPLETO">
                             </div>
                             <div class="form-group">
-                                <label for="cpf">CPF</label>
-                                <input type="text" class="form-control" id="cpf" placeholder="INFORME O SEU CPF">
+                                <label for="email">EMAIL</label>
+                                <input type="email" class="form-control" id="email" placeholder="INFORME O SEU EMAIL PRINCIPAL">
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-5">
-                                    <label for="inputCity">City</label>
-                                    <input type="text" class="form-control" id="inputCity">
+                            <div class="btn btn-group" >
+                                <div class="col-lg-12">
+                                    <button type="button" class="btn btn-cadastrar">CONCLUIR</button>
                                 </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">State</label>
-                                    <select id="inputState" class="form-control">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-2">
-                                    <label for="inputZip">Zip</label>
-                                    <input type="text" class="form-control" id="inputZip">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-cancelar">CANCELAR</button>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Check me out
-                                    </label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
                         </form>
                     </div>
                 </div>

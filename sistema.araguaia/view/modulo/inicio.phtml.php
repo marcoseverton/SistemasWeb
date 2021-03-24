@@ -12,6 +12,8 @@
 	<meta name="author" content="Bootlab">
 
 	<title>Spark - Responsive Admin &amp; Dashboard Template</title>
+    <link href="../design/bootstrap/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link href="../design/mais-estilos/css02.css" rel="stylesheet" id="bootstrap-css">
 
 	<!-- PICK ONE OF THE STYLES BELOW -->
 	<!-- <link href="css/modern.css" rel="stylesheet"> -->

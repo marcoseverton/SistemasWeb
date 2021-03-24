@@ -23,7 +23,6 @@ html,body{
     background-color: rgba(0,0,0,0.5) !important;
 }
 .card2{
-    height: 570px;
     margin-top: auto;
     margin-bottom: auto;
     width: 1000px;
@@ -31,16 +30,14 @@ html,body{
     color: #5fef8ce3 !important;
     background-color: rgba(0,0,0,0.5) !important;
 }
-.formulario{
-    padding: 30px;
-}
 
 .titulo{
     color: #ddf484  !important;
     font-family: sans-serif;
 }
-.tituloCadastro{
-    color: #9ee0aded !important;
+
+.tituloCadastro {
+    color: #5ed97f !important;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
@@ -74,7 +71,7 @@ html,body{
 }
 
 input:focus{
-    outline: 0 0 0 0  !important;
+    outline: 0 0 0 0 !important;
     box-shadow: 0 0 0 0 !important;
 
 }
@@ -113,4 +110,22 @@ input:focus{
 .links01:hover{
     margin-left: 4px;
     color: #20ff00;
+}
+.btn-cadastrar{
+    background-color: #1a622a;
+    color: white;
+    font-size: smaller;
+}
+.btn-cadastrar:hover{
+    background-color: #28a745;
+    font-size: larger;
+}
+.btn-cancelar{
+    background-color: #7b3f00;
+    color: white;
+    font-size: smaller;
+}
+.btn-cancelar:hover{
+    background-color: #ec7900;
+    font-size: larger;
 }
